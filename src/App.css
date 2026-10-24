@@ -1,0 +1,30 @@
+/* App styles go here */
+body{
+    font-family: "Preferred Font", "Fallback Font", generic-family;
+    background-color: rgb(247, 245, 241);
+}
+
+.containerCart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 2rem 8%;
+}
+
+
+
+
+/* !-------------------Tablet------------------- */
+@media (max-width: 1024px) {
+
+
+}
+
+/* !--------------Mobile------------------- */
+@media (max-width: 600px) {
+    .containerCart{
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 2rem 8%;
+}
+}

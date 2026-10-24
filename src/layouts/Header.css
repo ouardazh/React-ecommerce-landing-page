@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.containerLogo i{
+    color: rgb(250, 83, 14) ;
+    font-size: 33px;
+    padding-top: 8px;
+}
+.logo{
+    color: rgb(3, 8, 4);
+    font-weight: 800;
+}
+.logo span{
+    color: rgb(239, 89, 45);
+}
+.containerLogo p{
+    color: rgb(160, 160, 160);
+    font-size: 13px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: rgb(250, 83, 14);
+    font-weight: bold;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8%;
+}
+
+/* !-------------------Tablet------------------- */
+@media (max-width: 1024px) {
+
+.containerLogo i{
+    font-size: 23px;
+    padding-top: 8px;
+}
+.logo{
+    color: rgb(3, 8, 4);
+    font-weight: 800;
+}
+.containerLogo p{
+    color: rgb(160, 160, 160);
+    font-size: 11px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 8%;
+}
+}
+
+/* !--------------Mobile------------------- */
+@media (max-width: 600px) {
+
+.containerLogo i{
+    font-size: 26px;
+    padding-top: 8px;
+}
+
+.containerLogo p{
+    font-size: 11px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 1rem 8%;
+}
+}
